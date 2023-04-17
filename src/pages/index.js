@@ -31,7 +31,7 @@ export default function Home() {
   const supabase = useSupabaseClient()
   const user = useUser()
 
-  const { data, error } = useSWR('fetchAllItems', fetchAllItems)
+  // const { data, error } = useSWR('fetchAllItems', fetchAllItems)
 
       return (
         <>

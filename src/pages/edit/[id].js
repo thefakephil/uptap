@@ -4,7 +4,7 @@ import Footer from '@/components/footer'
 import useSWR from 'swr'
 import { useState, useEffect } from 'react'
 import { supabase } from '../../lib/initSupabase';
-import { useSessionContext, useSupabaseClient, useUser } from '@supabase/auth-helpers-react'
+import { useSupabaseClient, useUser } from '@supabase/auth-helpers-react'
 
 
 function grabUser(query) {
@@ -29,16 +29,11 @@ function grabUser(query) {
         emailRedirectTo: `http://localhost:3000/edit/${userName}`,
       },
     })
-    console.log('data', data)
-  }
-
-  async function signOut() {
-    const { error } = await supabase.auth.signOut()
+    // console.log('data', data)
   }
 
 export default function EditProfile({query}) {
-  const supabaseClient = useSupabaseClient()
-  const [session, setSession] = useState(null);
+  const supabaseClient = useSupabaseClient('https://urzwezzeuuoektazeacs.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVyendlenpldXVvZWt0YXplYWNzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODA5MTMzMjQsImV4cCI6MTk5NjQ4OTMyNH0.gqHx435bQkuImIdLxK3YFwFsQ43xu885IeDxBI5kyo0')
   const user = useUser();
 
   // useEffect(() => {
@@ -47,7 +42,7 @@ export default function EditProfile({query}) {
   // }, []);
 
     let userData = grabUser(query.id);
-    console.log('user', user)
+    // console.log('user', user)
 
     return (
       <>
