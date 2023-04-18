@@ -33,7 +33,7 @@ function grabUser(query) {
   }
 
 export default function EditProfile({query}) {
-  const supabaseClient = useSupabaseClient('https://urzwezzeuuoektazeacs.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVyendlenpldXVvZWt0YXplYWNzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODA5MTMzMjQsImV4cCI6MTk5NjQ4OTMyNH0.gqHx435bQkuImIdLxK3YFwFsQ43xu885IeDxBI5kyo0')
+  const supabaseClient = useSupabaseClient()
   const user = useUser();
 
   // useEffect(() => {
