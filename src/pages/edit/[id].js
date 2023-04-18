@@ -26,7 +26,7 @@ function grabUser(query) {
     const { data, error } = await supabase.auth.signInWithOtp({
       email: 'gebauer.phil@gmail.com',
       options: {
-        emailRedirectTo: `http://localhost:3000/edit/${userName}`,
+        emailRedirectTo: `http://uptap.app/edit/${userName}`,
       },
     })
     // console.log('data', data)
