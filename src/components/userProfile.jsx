@@ -47,32 +47,32 @@ export default function UserProfile() {
                                     <h3 className="font-medium text-gray-900 text-left px-6">Talk to me!</h3>
                                     <div className="mt-5 w-full flex flex-col items-center overflow-hidden text-sm">
                                         <a href="#" className="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
-                                            <img src="https://images.ctfassets.net/gkyt4bl1j2fs/ym6BkLqyGjMBmiCwtM7AW/829bf561ea771c00839b484cb8edeebb/App_Icon.png?w=276&h=276&q=50&fm=webp&bg=transparent" alt="" className="rounded-full h-6 shadow-md inline-block mr-2" />
+                                            <img src="https://images.ctfassets.net/gkyt4bl1j2fs/ym6BkLqyGjMBmiCwtM7AW/829bf561ea771c00839b484cb8edeebb/App_Icon.png?w=276&h=276&q=50&fm=webp&bg=transparent" alt="" className="rounded-full h-9 shadow-md inline-block mr-2" />
                                                 Vemno
                                                 {/* <span className="text-gray-500 text-xs">24 min ago</span> */}
                                         </a>
 
                                         <a href="#" className="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
-                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IMessage_logo.svg/468px-IMessage_logo.svg.png?20180402204645" alt="" className="rounded-full h-6 shadow-md inline-block mr-2" />
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IMessage_logo.svg/468px-IMessage_logo.svg.png?20180402204645" alt="" className="rounded-full h-9 shadow-md inline-block mr-2" />
                                                 Text Me
                                                 {/* <span className="text-gray-500 text-xs">42 min ago</span> */}
                                         </a>
 
                                         <a href="#" className="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
-                                            <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-1024.png" alt="" className="rounded-full h-6 shadow-md inline-block mr-2" />
+                                            <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-1024.png" alt="" className="rounded-full h-9 shadow-md inline-block mr-2" />
                                                 Email 
                                                 {/* <span className="font-bold">#Web Dev</span> */}
                                                 {/* <span className="text-gray-500 text-xs">49 min ago</span> */}
                                         </a>
 
                                         <a href="#" className="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
-                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/2048px-Google_Chrome_icon_%28February_2022%29.svg.png" alt="" className="rounded-full h-6 shadow-md inline-block mr-2" />
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/2048px-Google_Chrome_icon_%28February_2022%29.svg.png" alt="" className="rounded-full h-9 shadow-md inline-block mr-2" />
                                                 Website
                                                 {/* <span className="text-gray-500 text-xs">1 day ago</span> */}
                                         </a>
 
                                         <a href="#" className="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150 overflow-hidden">
-                                            <img src="https://t4.ftcdn.net/jpg/02/98/28/57/360_F_298285715_ct4qtZOJH119A39TdMrbkLsfziVCX1Rz.jpg" alt="" className="rounded-full h-6 shadow-md inline-block mr-2" />
+                                            <img src="https://t4.ftcdn.net/jpg/02/98/28/57/360_F_298285715_ct4qtZOJH119A39TdMrbkLsfziVCX1Rz.jpg" alt="" className="rounded-full h-9 shadow-md inline-block mr-2" />
                                                 Address
                                                 {/* <span className="text-gray-500 text-xs">5 days ago</span> */}
                                         </a>
