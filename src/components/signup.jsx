@@ -3,8 +3,8 @@ export default function SignUp() {
         <section className="py-10 bg-gray-100 sm:py-16 lg:py-28">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="max-w-2xl mx-auto text-center">
-                    <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Get full access to Celebration</h2>
-                    <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Get your free UpTap card!</h2>
+                    <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Submit your email and get your free card and grab a new profile! </p>
                 </div>
 
                 <form action="#" method="POST" className="max-w-xl mx-auto mt-12">
@@ -22,7 +22,7 @@ export default function SignUp() {
                         </div>
 
                         <button type="submit" className="inline-flex items-center justify-center w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-md sm:ml-4 sm:mt-0 sm:w-auto hover:bg-indigo-700 focus:bg-indigo-700">
-                            Get instant access
+                            Sign up now
                             <svg className="w-5 h-5 ml-3 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>

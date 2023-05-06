@@ -25,7 +25,7 @@ export default function HowTo() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                                 <span className="text-xl font-semibold text-gray-700"> 2 </span>
                             </div>
-                            <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Build your website</h3>
+                            <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Build your page</h3>
                             <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         </div>
 
@@ -33,7 +33,7 @@ export default function HowTo() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                                 <span className="text-xl font-semibold text-gray-700"> 3 </span>
                             </div>
-                            <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Release & Launch</h3>
+                            <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Tap and Connect with your new card</h3>
                             <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         </div>
                     </div>

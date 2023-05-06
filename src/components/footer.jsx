@@ -51,19 +51,19 @@ export default function Footer (){
 
                 <ul className="mt-6 space-y-4">
                     <li>
-                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Customer Support </a>
+                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Link </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Delivery Details </a>
+                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Link </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Terms & Conditions </a>
+                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Link </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Privacy Policy </a>
+                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Link </a>
                     </li>
                 </ul>
             </div>
@@ -77,15 +77,15 @@ export default function Footer (){
                     </li> */}
 
                     <li>
-                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Development Tutorial </a>
+                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Link </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> How to - Blog </a>
+                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Link </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> YouTube Playlist </a>
+                        <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Link </a>
                     </li>
                 </ul>
             </div>

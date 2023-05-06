@@ -24,7 +24,7 @@ export default function UserProfile() {
                             </div>
 
                             <div className="mt-16">
-                                <h1 className="font-bold text-center text-3xl text-gray-900">Mark 'Furnasty' Funiss</h1>
+                                <h1 className="font-bold text-center text-3xl text-gray-900">Mark 'Furnasty' Furniss</h1>
                                 <p className="text-center text-sm text-gray-400 font-medium">Juggler, Juggalo and Banker</p>
                                 <p>
                                     <span>
@@ -48,7 +48,7 @@ export default function UserProfile() {
                                     <div className="mt-5 w-full flex flex-col items-center overflow-hidden text-sm">
                                         <a href="#" className="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
                                             <img src="https://images.ctfassets.net/gkyt4bl1j2fs/ym6BkLqyGjMBmiCwtM7AW/829bf561ea771c00839b484cb8edeebb/App_Icon.png?w=276&h=276&q=50&fm=webp&bg=transparent" alt="" className="rounded-full h-9 shadow-md inline-block mr-2" />
-                                                Vemno
+                                                Venmo
                                                 {/* <span className="text-gray-500 text-xs">24 min ago</span> */}
                                         </a>
 
