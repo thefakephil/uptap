@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Nav() {
     return (
         <header className="">
@@ -5,7 +7,14 @@ export default function Nav() {
             <div className="flex items-center justify-between h-16 lg:h-20">
                 <div className="flex-shrink-0">
                     <a href="#" title="" className="flex">
-                        <img className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/logo.svg" alt="" />
+                        {/* <h2> UpTap </h2> */}
+                        <Image 
+                            src="/images/logo-2.png"
+                            width={140}
+                            height={20}
+                            alt="Uptap Logo"
+                        /> 
+                        {/* <img className="w-auto h-8" src="../../public/uptap-logo.png" alt="" /> */}
                     </a>
                 </div>
 
@@ -22,9 +31,9 @@ export default function Nav() {
                 <div className="hidden ml-auto lg:flex lg:items-center lg:justify-center lg:space-x-10">
                     <a href="#" title="" className="text-base font-semibold text-black transition-all duration-200 hover:text-opacity-80"> Features </a>
 
-                    <a href="#" title="" className="text-base font-semibold text-black transition-all duration-200 hover:text-opacity-80"> Solutions </a>
+                    {/* <a href="#" title="" className="text-base font-semibold text-black transition-all duration-200 hover:text-opacity-80"> Solutions </a> */}
 
-                    <a href="#" title="" className="text-base font-semibold text-black transition-all duration-200 hover:text-opacity-80"> Resources </a>
+                    {/* <a href="#" title="" className="text-base font-semibold text-black transition-all duration-200 hover:text-opacity-80"> Resources </a> */}
 
                     <a href="#" title="" className="text-base font-semibold text-black transition-all duration-200 hover:text-opacity-80"> Pricing </a>
 

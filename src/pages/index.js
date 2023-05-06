@@ -8,6 +8,8 @@ import Hero from '@/components/hero'
 import Nav from '@/components/nav'
 import Feature from '@/components/feature'
 import Footer from '@/components/footer'
+import Signup from '@/components/signup'
+import HowTo from '@/components/howto'
 // import InputGroup from '@/components/input'
 // pages/index.tsx
 // import prisma from '../../lib/prisma';
@@ -45,6 +47,8 @@ export default function Home() {
             <Nav />
             <Hero /> 
             <Feature /> 
+            <Signup /> 
+            <HowTo /> 
             <Footer />
           </main>
         </>
